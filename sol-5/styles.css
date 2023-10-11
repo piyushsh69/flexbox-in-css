@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    transition: .2s;
+}
+
+button:hover {
+    scale: 1.02;
+}
+
+#main-container {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    gap: 44px;
+}
+
+#left-container {
+    width: 100%;
+    padding: 30px 0px 0 70px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.nav-items {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-buttons .btn {
+    cursor: pointer;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10.139px 15.208px;
+    border-radius: 5.069px;
+    border: 1.014px solid rgba(51, 51, 51, 0.20);
+    background: transparent;
+}
+
+.nav-buttons .orange-btn {
+    border: 1.014px solid #FB792B;
+    background: #FB792B;
+    color: white;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+}
+
+.title {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title h1 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 48.667px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.title p {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 32.444px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.title p .green-text {
+    color: #01BB0A;
+}
+
+.title p .orange-text {
+    color: #FB792B;
+}
+
+.title p .blue-text {
+    color: #213D77;
+}
+
+.tab-buttons {
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.tab-buttons .btn {
+    margin-bottom: 50px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 18.25px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10.139px;
+    cursor: pointer;
+    border-radius: 5.069px;
+    border: 1.014px solid rgba(51, 51, 51, 0.50);
+    background: transparent;
+    padding: 10.139px 15.208px;
+}
+
+.tab-buttons .blue-btn {
+    color: white;
+    background: #213D77;
+    border-color: #213D77;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details-card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+}
+
+.city-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-text p {
+    display: flex;
+    align-items: center;
+    color: #333333;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 15.208px;
+    font-weight: 300;
+}
+
+.info-text h3 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 25.347px;
+    font-weight: 600;
+}
+
+.train-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.train-info .info-text {
+    margin-top: 5px;
+}
+
+.submit-btn {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 25.347px;
+    font-weight: 800;
+    padding: 26px 0;
+    background-color: #01BB0A;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

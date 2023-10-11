@@ -1,0 +1,20 @@
+1. justify-content:
+This property controls how flex items are aligned along the main axis (the primary axis of the flex container). It determines how space is distributed between and around the flex items.
+It offers options like aligning items to the start, end, center, evenly distributing them, or providing equal space around them on the main axis.
+
+2. align-items:
+align-items plays a role in aligning flex items along the cross-axis, which is perpendicular to the main axis.
+It affects how items are positioned vertically (if the main axis is horizontal) or horizontally (if the main axis is vertical).
+You can use it to align items at the start, end, center, or even based on their baselines.
+
+3. gap:
+The gap property sets the spacing (gap or gutter) between flex items within a flex container.
+It simplifies the process of creating consistent spacing between items, both vertically and horizontally, and is particularly useful for creating grid-like layouts.
+
+4. flex-direction:
+flex-direction defines the primary direction in which flex items are laid out within the flex container.
+It can establish whether items flow horizontally (from left to right or right to left) or vertically (from top to bottom or bottom to top).
+
+5. flex-wrap:
+This property determines whether flex items should wrap onto multiple lines or stay on a single line when they exceed the available space along the main axis.
+It's helpful for controlling whether items should be forced into a new row or column when there's insufficient space.
