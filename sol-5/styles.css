@@ -203,3 +203,7 @@ nav {
     border-radius: 10px;
     cursor: pointer;
 }
+
+#right-container{
+    margin-bottom: 60px;
+}
